@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="经度"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+       
+       <!--定义输入经度值的文本框-->
+        <EditText
+            android:id="@+id/lng"
+            android:inputType="numberDecimal"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text=""/>
+         
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="纬度"
+            android:paddingLeft="8dp"/>
+         <!--定义输入纬度值的文本框-->
+        <EditText
+            android:id="@+id/lat"
+            android:inputType="numberDecimal"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button android:id="@+id/loc"
+            	android:text="定位"
+            	android:layout_width="0dp"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="4"/>
+    </LinearLayout>
+   
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <!-- 定义选择地图类型的单选按钮组 -->
+        <RadioGroup 
+            android:id="@+id/rg"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <RadioButton 
+                android:text="普通视图"
+                android:id="@+id/normal"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton 
+                android:text="卫星视力"
+                android:id="@+id/satellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </LinearLayout>
+    <com.google.android.maps.MapView
+        android:id="@+id/mv"
+        android:clickable="true"
+        android:enabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="AIzaSyDpPdiMJpOfY0iSjQyN9ZECZH1mtQh-PBW"/>
+
+</LinearLayout>

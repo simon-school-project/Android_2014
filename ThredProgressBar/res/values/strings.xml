@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThredProgressBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="stratbt">开始ProgressBar</string>
+    <string name="stopbt">停止ProgressBar</string>
+
+</resources>

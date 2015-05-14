@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SodokuActivity!</string>
+    <string name="app_name">小九九</string>
+    <string name="game_title">数独游戏</string>
+    <string name="begin_text">开始玩游戏</string>
+    <string name="continue_text">继续玩游戏</string>
+    <string name="gamebegint">游戏难度</string>
+    <string name="about_text">关于游戏</string>
+
+    
+    <string name="exit_text">退出游戏</string>
+    <string name="about_content">数独游戏简介，數獨游戏在9x9的方格内进行，分为3x3的小方格，每一横排每一竖排每一斜排都是1-9九个数字。每一横排每一竖排每一斜排不得重复任何一个数字。 </string>
+
+</resources>

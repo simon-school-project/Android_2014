@@ -1,0 +1,32 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+	android:rowCount="6"
+    >
+
+   
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_marginLeft="4px"
+         android:layout_marginRight="4px"
+         android:padding="5px"
+        android:layout_columnSpan="4"
+        android:layout_gravity="right"
+      	android:background="#eee"
+      	android:textColor="#000"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="清除" />
+
+</GridLayout>

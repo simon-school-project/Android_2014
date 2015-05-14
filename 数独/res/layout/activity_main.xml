@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btbackground"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/simple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="31dp"
+        android:text="简单" />
+
+    <Button
+        android:id="@+id/common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:text="普通" />
+
+    <Button
+        android:id="@+id/difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="111dp"
+        android:text="困难" />
+
+</LinearLayout>

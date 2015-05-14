@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Checkbox</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">RadioButton2 is selecied</string>
+    <string name="CheckBox01">CheckBox01</string>
+    <string name="CheckBox02">CheckBox02</string>
+    <string name="RadioButton01">RadioButton01</string>
+    <string name="RadioButton02">RadioButton02</string>
+
+</resources>

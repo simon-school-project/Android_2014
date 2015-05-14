@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IntentJump</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">点按钮跳转第二个界面！</string>
+    <string name="title_activity_second_activity_main">MainActivity</string>
+
+</resources>

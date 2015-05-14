@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.siso.xueyao.game2048.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+	
+    </LinearLayout>
+
+    <cn.edu.siso.xueyao.game2048.GameView
+
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1" >
+    </cn.edu.siso.xueyao.game2048.GameView>
+
+</LinearLayout>
